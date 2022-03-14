@@ -18,7 +18,7 @@ In this work, we introduce LexSubCon, an end-to-end lexical substitution framewo
 
 ## Technologies
 This project was created with python 3.7 and PyTorch 1.7.1 and it is based on the transformer github repo of the huggingface [team](https://huggingface.co/)
-
+and the github repo of the sentence-transformers [team](https://github.com/UKPLab/sentence-transformers)
 ## Setup
 We recommend installing and running the code from within a virtual environment.
 
