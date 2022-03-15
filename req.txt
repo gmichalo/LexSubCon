@@ -1,0 +1,12 @@
+torchvision
+lxml
+tqdm
+torch==1.7.1
+nltk
+transformers==4.1.1
+pandas
+sklearn
+sentence_transformers
+bs4
+gdown
+wordhoard
