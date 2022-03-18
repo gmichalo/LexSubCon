@@ -103,7 +103,13 @@ parser.add_argument("-g", "--gap", type=bool, help="whether we use the gap ranki
 ```
 
 
+### Running Individual Features and Combining them
+Finally, in the case that a computer cannot simultaneously run  all the signals, you can run each signal individually (with weight 1) and run the  **lexical_combined_results.py** script after updating the paths of the results
+
+### Citation
 If you find our work useful, can cite our paper using:
+
+
 
 ```
 @article{Michalopoulos2021LexSubConIK,
