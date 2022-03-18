@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
     # ---------------proposed score
     parser.add_argument("-glns", "--noise_type", type=str,
-                        help="what noise are we using in the proposed score (GLOSS,GAUSSIAN,DROPOUT,MASKED,UNMASKED, LEXSUB)",
+                        help="what noise are we using in the proposed score (GLOSS,GAUSSIAN,DROPOUT,MASKED,UNMASKED)",
                         default="GLOSS")
     # ------ gloss model
     parser.add_argument("-gc", "--gloss_checkpoint", type=str, help="path to the glossbert checkpoint",
@@ -102,7 +102,7 @@ if __name__ == "__main__":
                         default=False)
 
     parser.add_argument("-smb", "--similarity_path_save", type=str, help="path to save/load the similarity model ",
-                        default="checkpoint/similarity_new_bert_coinco")
+                        default="checkpoint/similarity_new_bert/")
     # ----------gap flags
     parser.add_argument("-g", "--gap", type=bool, help="whether we use the gap ranking (candidate ranking)",
                         default=False)
@@ -289,7 +289,6 @@ if __name__ == "__main__":
                     get the validation score for each word
                     """
                     validation.get_contextual_weights_original(text, change_word, index_word, main_word)
-                    # for word in proposed_words:
                     for word in proposed_words:
                         text_list = text.split(" ")
                         text_list[int(index_word)] = word
@@ -297,7 +296,6 @@ if __name__ == "__main__":
                         validation.get_contextual_weights_update(text_update, word, int(index_word), main_word)
                         similarity = validation.get_val_score(word)
                         proposed_words[word] = proposed_words[word] + gamma * similarity
-                        # break
                 # -------------------------------------------------------------------------------------
 
                 if args.gloss_score:

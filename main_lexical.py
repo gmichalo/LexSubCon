@@ -191,7 +191,6 @@ if __name__ == "__main__":
                 change_word = text.split(' ')[int(index_word)]
                 synonyms = []
 
-                # get potential words
                 if args.gap:
                     try:
                         proposed_words = reader.candidates[main_word]
@@ -310,7 +309,7 @@ if __name__ == "__main__":
 
                     if len(gloss_list) == 0:
                         count_gloss = count_gloss + 1
-                        print(main_word.split('.')[0])
+                        # print(main_word.split('.')[0])
                         for word in proposed_words:
                             proposed_words[word] = proposed_words[word] + delta * 0
                     else:
