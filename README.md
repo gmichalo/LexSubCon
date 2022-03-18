@@ -81,6 +81,13 @@ In order to run the model for the LS07 dataset:
 ```
 python3 main_lexical.py
 ```
+
+and in order to run the model for the LS14 dataset:
+
+```
+python3 main_lexical_coinco.py
+```
+
 in order to use the difference signals you will need to set the respective flag to True:
 ```
     parser.add_argument("-val", "--validation_score", type=bool, help="whether we use validation score")
