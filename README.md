@@ -2,7 +2,7 @@
 
 ## General info
 
-This is the code that was used of the paper :  [LexSubCon: Integrating Knowledge from Lexical Resources into Contextual Embeddings for Lexical Substitution](https://arxiv.org/pdf/2107.05132.pdf).
+This is the code that was used for the paper :  [LexSubCon: Integrating Knowledge from Lexical Resources into Contextual Embeddings for Lexical Substitution](https://arxiv.org/pdf/2107.05132.pdf).
 
 In this work, we introduce LexSubCon, an end-to-end lexical substitution framework based on contextual embedding models that can identify highly-accurate substitute candidates. This is achieved by combining contextual information with knowledge from structured lexical resources Our approach involves:
 
