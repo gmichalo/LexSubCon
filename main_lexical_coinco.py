@@ -55,13 +55,13 @@ if __name__ == "__main__":
 
     # ----hyperparameters value
     parser.add_argument("-a", "--alpha", type=float, help="alpha variable for proposed score",
-                        default=1)
+                        default=0.05)
     parser.add_argument("-b", "--bita", type=float, help="bita variable for similarity score",
                         default=1)
     parser.add_argument("-ga", "--gamma", type=float, help="gamma variable for validation score",
-                        default=1)
+                        default=0.5)
     parser.add_argument("-de", "--delta", type=float, help="delta variable for gloss score",
-                        default=1)
+                        default=0.05)
 
     # ---------signals
     parser.add_argument("-val", "--validation_score", type=bool, help="whether we use validation score",
