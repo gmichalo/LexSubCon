@@ -60,7 +60,7 @@ if __name__ == "__main__":
     parser.add_argument("-b", "--bita", type=float, help="bita variable for similarity score",
                         default=1)
     parser.add_argument("-ga", "--gamma", type=float, help="gamma variable for validation score",
-                        default=0.5acl_2022_lexical_final)
+                        default=0.5)
     parser.add_argument("-de", "--delta", type=float, help="delta variable for gloss score",
                         default=0.05)
 
