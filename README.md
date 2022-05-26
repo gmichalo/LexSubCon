@@ -112,11 +112,18 @@ If you find our work useful, can cite our paper using:
 
 
 ```
-@article{Michalopoulos2021LexSubConIK,
-  title={LexSubCon: Integrating Knowledge from Lexical Resources into Contextual Embeddings for Lexical Substitution},
-  author={George Michalopoulos and Ian McKillop and Alexander Wong and Helen H. Chen},
-  journal={ArXiv},
-  year={2021},
-  volume={abs/2107.05132}
+@inproceedings{michalopoulos-etal-2022-lexsubcon,
+    title = "{L}ex{S}ub{C}on: Integrating Knowledge from Lexical Resources into Contextual Embeddings for Lexical Substitution",
+    author = "Michalopoulos, George  and
+      McKillop, Ian  and
+      Wong, Alexander  and
+      Chen, Helen",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.87",
+    pages = "1226--1236",
 }
 ```
